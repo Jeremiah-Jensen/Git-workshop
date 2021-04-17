@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /** Calculates the fibonacci number at k.
  *  Fibonacci is defined as:
  *  Fibonacci(k) = Fibonacci(k - 1) + Fibonacci(k - 2)
@@ -15,21 +16,14 @@
  *      fibonacci(6); //8
  *      fibonacci(8); //21
  */
-
 int fibonacci(int k) {
-    int term, t1=0,t2=1, i;
-    for ( i = 1;i<=k;i++){
-    term = t1 + t2;
-    t1=t2;
-    t2=term;
-    }
+    //WRITE CODE HERE
 
-   
+    return 0; // EDIT THIS
 }
 
 
 int main(void) {
-    int i;
     int k=5;
 
     printf("Fibonacci at %d is %d\n", k, fibonacci(k));
